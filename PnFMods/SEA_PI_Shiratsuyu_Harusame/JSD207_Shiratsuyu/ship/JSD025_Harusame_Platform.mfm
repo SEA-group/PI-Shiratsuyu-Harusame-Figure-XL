@@ -1,0 +1,29 @@
+<JSD025_Harusame_Platform.mfm>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	10.60000	</Float>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	150	</Int>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Platform_a.tga	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Platform_mg.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/default_n.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/default_ao.tga	</Texture>
+	</property>
+</JSD025_Harusame_Platform.mfm>
