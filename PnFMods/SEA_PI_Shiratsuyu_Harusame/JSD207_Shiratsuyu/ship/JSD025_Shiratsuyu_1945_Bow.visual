@@ -29,6 +29,15 @@
 				</transform>
 			</node>
 			<node>
+				<identifier>	Window	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
 				<identifier>	Bow_patch_MidFront	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
@@ -78,31 +87,15 @@
 					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Shiratsuyu_1945.mfm	</mfm>
 				</material>
 			</primitiveGroup>
-			<primitiveGroup>	1
-				<material>
-					<identifier>	SHIPMAT_Harusame_Kami	</identifier>
-					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Kami.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-			<primitiveGroup>	2
-				<material>
-					<identifier>	SHIPMAT_Harusame_Kao	</identifier>
-					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Kao.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-			<primitiveGroup>	3
-				<material>
-					<identifier>	SHIPMAT_Harusame_Karata	</identifier>
-					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Karata.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-			<primitiveGroup>	4
-				<material>
-					<identifier>	SHIPMAT_Harusame_Platform	</identifier>
-					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Harusame_Platform.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-			<primitiveGroup>	5
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Window	</node>
+		<geometry>
+			<vertices>	SEA_Glass.vertices	</vertices>
+			<primitive>	SEA_Glass.indices	</primitive>
+			<primitiveGroup>	0
 				<material>
 					<identifier>	SHIPMAT_PBS_Hull_Glass	</identifier>
 					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Shiratsuyu_1945_Glass.mfm	</mfm>
