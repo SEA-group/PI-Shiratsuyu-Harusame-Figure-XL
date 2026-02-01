@@ -1,9 +1,6 @@
 <JSD025_Shiratsuyu_1945_MidBack.model>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/lods/JSD025_Shiratsuyu_1945_MidBack_lod1	</parent>
-	<extent>	5.0000	</extent>
-	<materialNames />
-	<castsShadow>	true	</castsShadow>
-	<nodefullVisual>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Shiratsuyu_1945_MidBack	</nodefullVisual>
+	<visual>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/ship/JSD025_Shiratsuyu_1945_MidBack.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </JSD025_Shiratsuyu_1945_MidBack.model>

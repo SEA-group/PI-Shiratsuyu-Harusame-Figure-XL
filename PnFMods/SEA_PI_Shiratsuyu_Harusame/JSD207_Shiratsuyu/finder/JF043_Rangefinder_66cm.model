@@ -1,13 +1,6 @@
 <JF043_Rangefinder_66cm.model>
-	<castsShadow>	false	</castsShadow>
-	<extent>	1.000000	</extent>
-	<parent>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/lods/JF043_Rangefinder_66cm_lod1	</parent>
-	<materialNames />
-	<visibilityBox>
-		<min>	-0.027550 0.000000 -0.004025	</min>
-		<max>	0.027550 0.021558 0.004025	</max>
-	</visibilityBox>
-	<exporter>	1.5	</exporter>
-	<nodefullVisual>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm	</nodefullVisual>
+	<visual>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </JF043_Rangefinder_66cm.model>

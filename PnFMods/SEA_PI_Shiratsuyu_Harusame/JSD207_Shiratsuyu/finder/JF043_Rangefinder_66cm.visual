@@ -1,38 +1,88 @@
 <JF043_Rangefinder_66cm.visual>
+	<skeleton>
+		<node>
+			<identifier>	Scene Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Rangefinder66cm	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.027550 0.000000 -0.004025	</min>
 		<max>	0.027550 0.021558 0.004025	</max>
 	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
-		<node>
-			<identifier>	Rangefinder66cm	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Rangefinder66cm	</node>
-		<geometry>
-			<vertices>	Rangefinder66cmShape.vertices	</vertices>
-			<primitive>	Rangefinder66cmShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_radar	</identifier>
-					<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	<renderSets>
+		<renderSet>
+			<name>	Rangefinder66cmShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rangefinder66cm	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Rangefinder66cm_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rangefinder66cm	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Rangefinder66cm_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rangefinder66cm	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_radar	</identifier>
+				<mfm>	PnFMods/SEA_PI_Shiratsuyu_Harusame/JSD207_Shiratsuyu/finder/JF043_Rangefinder_66cm.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	1.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Rangefinder66cmShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	3.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Rangefinder66cm_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.000000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Rangefinder66cm_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JF043_Rangefinder_66cm.visual>
